@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainPage{
+    width: 90vw;
+    min-height: max-content;
+    margin: 0 auto;
+}
+.postsList{
+    width: max-content;
+    height: max-content;
+    list-style-type: none;
+    margin: 0 auto;
+}
+.postsList__item{
+    width: 75vw;
+    height: 50px;
+    border: 2px solid #000;
+    margin: 15px auto;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.postsList__item_info{
+    width: max-content;
+    height: max-content;
+    font-size: 18px;
+    font-weight: bold;
+}
+.postsList__item_edit{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.edit__img{
+    width: 20px;
+    height: 20px;
+}
+.popup{
+    position: absolute;
+    background-color: #00000081;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup__block{
+    width: 450px;
+    height: max-content;
+    padding: 15px;
+    border-radius: 9px;
+    background-color: #fff;
+}
+.popup__close{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 415px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.popup__inp{
+    width: 400px;
+    height: 50px;
+    border-radius: 9px;
+    outline: none;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.popup__edit{
+    width: 125px;
+    height: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: transparent;
+    margin-left: 162.5px;
+}
